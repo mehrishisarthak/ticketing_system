@@ -1,70 +1,7 @@
-<p align="center">
-<a href="" rel="noopener">
-<img width="150" height="150" src="assets/logo.png" alt="Project logo">
-</a>
-</p>
-<h3 align="center">AAVEG Orientation Ticketing System</h3>
-<div align="center">
-</div>
-<p align="center">
-A full-stack web application built with Flutter and Supabase to manage event ticketing for the AAVEG Orientation at NIT Agartala.
-<br>
-</p>
-📝 Table of Contents
-About
-Getting Started
-Usage
-Deployment
-Built Using
-Authors
-🧐 About <a name="about"></a>
-This project is a complete ticketing solution designed to streamline the seat booking process for the AAVEG club's orientation event. It provides a simple, responsive interface for students to register, select their seats from a graphical auditorium map, and instantly download a PDF ticket with a unique QR code.
-The system is built for open registration, allowing any student to book a ticket while preventing duplicate entries based on a unique enrollment number. The backend is powered by Supabase, utilizing a PostgreSQL database and serverless functions for secure, transactional bookings.
-🏁 Getting Started <a name="getting-started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-Prerequisites
-You will need the Flutter SDK installed on your machine. You can find installation instructions on the official Flutter website.
-Installing
-A step-by-step guide to get a development environment running:
-Clone the repository
-git clone [https://github.com/mehrishisarthak/ticketing_system.git](https://github.com/mehrishisarthak/ticketing_system.git)
+<p align="center"><a href="https://www.google.com/search?q=https://github.com/mehrishisarthak/ticketing_system" rel="noopener"><img width="150" height="150" src="assets/logo.png" alt="Project logo"></a></p><h3 align="center">AAVEG Orientation Ticketing System</h3><div align="center"></div><p align="center">A full-stack web application built with Flutter and Supabase to manage event ticketing for the AAVEG Orientation at NIT Agartala.<br></p>📝 Table of ContentsAboutGetting StartedUsageDeploymentBuilt UsingAuthors🧐 About <a name="about"></a>This project is a complete ticketing solution designed to streamline the seat booking process for the AAVEG club's orientation event. It provides a simple, responsive interface for students to register, select their seats from a graphical auditorium map, and instantly download a PDF ticket with a unique QR code.The system is built for open registration, allowing any student to book a ticket while preventing duplicate entries based on a unique enrollment number. The backend is powered by Supabase, utilizing a PostgreSQL database and serverless functions for secure, transactional bookings.🏁 Getting Started <a name="getting-started"></a>These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.PrerequisitesYou will need the Flutter SDK installed on your machine. You can find installation instructions on the official Flutter website.InstallingA step-by-step guide to get a development environment running:Clone the repositorygit clone [https://github.com/mehrishisarthak/ticketing_system.git](https://github.com/mehrishisarthak/ticketing_system.git)
 cd ticketing_system
-
-
-Set up Supabase Credentials
-Create a file named .env inside the assets/ directory.
-Add your Supabase URL and Anon Key to this file:
-SUPABASE_URL=YOUR_SUPABASE_URL
-SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-
-
-Install Dependencies
-flutter pub get
-
-
-Run the Application
-flutter run -d chrome
-
-The application will now be running in your browser, connected to your Supabase instance.
-🎈 Usage <a name="usage"></a>
-The application provides a straightforward user flow:
-Navigate to the Booking Page from the main landing screen.
-Enter your First Name and a unique Enrollment Number.
-If the enrollment number has not been used, you will proceed to the Seat Selection Page.
-Choose an available seat from the interactive auditorium map and confirm your selection.
-Upon successful booking, you will be redirected to the Ticket Page.
-Download your official ticket as a PDF, which includes your details and a unique QR code for verification.
-🚀 Deployment <a name="deployment"></a>
-This project is configured for seamless deployment on Vercel.
-Push your project to a GitHub repository.
-Import the repository into Vercel.
-Set the Framework Preset to Flutter.
-Add your Supabase credentials as Environment Variables in the Vercel project settings:
-FLUTTER_WEB_SUPABASE_URL
-FLUTTER_WEB_SUPABASE_ANON_KEY
-Deploy. Vercel will handle the build process and provide you with a live URL.
-⛏️ Built Using <a name="built-using"></a>
-Flutter - Frontend Web Framework
-Supabase - Backend & PostgreSQL Database
-✍️ Authors <a name="authors"></a>
-@mehrishisarthak - Project Lead
+Set up Supabase CredentialsCreate a file named .env inside the assets/ directory.Add your Supabase URL and Anon Key to this file. Note: The keys below are public keys for this project's instance. If you are forking this project, you should replace them with your own.SUPABASE_URL=[https://escycqifgxvpqzcdtsqe.supabase.co](https://escycqifgxvpqzcdtsqe.supabase.co)
+SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVzY3ljcWlmZ3h2cHF6Y2R0c3FlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTcxMDE0MTksImV4cCI6MjA3MjY3NzQxOX0.03S5oRy_8wO08ZqrpzH7-sGvNCkCzJFDiBTcbot2Kz4
+Install Dependenciesflutter pub get
+Run the Applicationflutter run -d chrome
+The application will now be running in your browser, connected to your Supabase instance.🎈 Usage <a name="usage"></a>The application provides a straightforward user flow:Navigate to the Booking Page from the main landing screen.Enter your First Name and a unique Enrollment Number.If the enrollment number has not been used, you will proceed to the Seat Selection Page.Choose an available seat from the interactive auditorium map and confirm your selection.Upon successful booking, you will be redirected to the Ticket Page.Download your official ticket as a PDF, which includes your details and a unique QR code for verification.🚀 Deployment <a name="deployment"></a>This project is configured for seamless deployment on Vercel.Push your project to a GitHub repository.Import the repository into Vercel.Set the Framework Preset to Flutter.Add your Supabase credentials as Environment Variables in the Vercel project settings:FLUTTER_WEB_SUPABASE_URLFLUTTER_WEB_SUPABASE_ANON_KEYDeploy. Vercel will handle the build process and provide you with a live URL.⛏️ Built Using <a name="built-using"></a>Flutter - Frontend Web FrameworkSupabase - Backend & PostgreSQL Database✍️ Authors <a name="authors"></a>@mehrishisarthak - Project Lead
