@@ -2,7 +2,8 @@
   "builds": [
     {
       "src": "pubspec.yaml",
-      "use": "@jtmthf/vercel-flutter"
+      "use": "@canewsin/vercel-flutter"
     }
   ]
 }
+
